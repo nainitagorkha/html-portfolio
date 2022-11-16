@@ -1,0 +1,192 @@
+/* .navbar {
+position: fixed;
+top: 0;
+z-index: 10;
+left: 0;
+right: 0;
+} */
+nav,ul,li,a{
+    color: red !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.header{
+    margin-top: -55px;
+    height: 85vh;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+   /* margin: 30px; */
+    font-size: 50px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    /* margin: 30px; */
+}
+.edu h3{
+    color: white;
+    font-size: 40px;
+    
+}
+.aboutus-bg{
+    background-color: rgb(59, 50, 50);
+}
+h5{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    /* padding-left: 20px; */
+}
+.para{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+span{
+    color: red
+}
+
+
+.education{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.title h2{
+    color: white;
+    font-size: 60px;
+    /* width: 1130px; */
+    /* margin: 30px auto; */
+    text-align: center;
+}
+
+.card{
+    height: 400;
+    /* width: 350px; */
+    /* padding: 20px 30px; */
+    background: #191919;
+    border-radius: 20px;
+    /* margin: 15px; */
+    position: relative;
+    text-align: center;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra {
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+ 
+}
+.card .button{
+    background-color:black;
+    color: #fcfcfc;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;   
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}   
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30p;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.contact-me .button-two{
+    background-color: black;
+    color: #fcfcfc;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;      
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight:bold ;
+}
+footer p:nth-child(2){
+    color: wheat;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) { 
+    .about img {
+        width: 90%;
+    }
+ }
